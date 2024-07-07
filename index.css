@@ -4,6 +4,9 @@
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     box-sizing: border-box;
 }
+
+
+/* header */
 header{
     display: flex;
     background-color: white;
@@ -11,10 +14,11 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #f6f6f6;
+    /* padding: 0px 50px; */
 }
 .myntra_home{
-    height: 36px;
-    width: 53px;
+    height: 40px;
+    width: 70px;
 }
 .logo_container{
     margin-left: 4%;
@@ -88,22 +92,129 @@ header{
 .banner_image{
     width: 100%;
 }
-.category_heading{
+.coupons_corner{
     width: 100%;
 }
-.catagory_image{
+.deals_image{
     width: 100%;
 }
 .myntra_100_200{
     display: flex;
     justify-content: space-evenly;
 }
-.catagories{
+.myntra_100 myntra_200{
     width: 100%;
-    padding-top: 20px;
-    box-sizing: content-box;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    flex-shrink: 2;
 }
+.crazy_deals{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    
+}
+.deals_items{
+    width: 315px;
+}
+.catagory_image{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Shop_By_Category{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+/* .catagory_items{
+
+} */
+.App_Install_Banner{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+
+/* footer */
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+.column1 h3{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.column1 #ul{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.column1 a{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.column2{
+    padding-right: 100px;
+}
+.column2 h3{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.column2 #kit{
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.column2 .download_icon{
+    height: 42px;
+    padding: 0px 5px 0px 0px;
+}
+.column2 .link_icon{
+    height: 20px;
+    /* width: 20px; */
+    padding: 0px 15px 0px 0px;
+}
+.column2 #part1{
+    display: flex;
+    padding-bottom: 30px;
+}
+.column2 #part1 #section1{
+    padding: 0px 5px 0px 0px;
+}
+.column2 #part2{
+    display: flex;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+.column2 #part2 #section1{
+    padding: 0px 5px 0px 0px;
+}
+/* .copywrite{
+    flex-direction: row;
+    background: #FAFBFC;
+    color: #282c3f;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+}
+.copywrite p{
+    padding: 0px 132px;
+    padding-bottom: 20px;
+} */
